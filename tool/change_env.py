@@ -1,7 +1,7 @@
 import os
 
-def change_env(env_position):
-    cmd = env_position +' '+'~/py2.py'
+def change_env(py2_env_position):
+    cmd = py2_env_position +' '+'~/py2.py'
     os.system(cmd)
 
 
